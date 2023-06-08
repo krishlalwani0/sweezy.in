@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans Narrow', sans-serif;
+  overflow-x: hidden;
+}
+:root{
+  --primary-color: white;
+  --secondary-color: black; 
+}
+.white-space{
+  color: black;
+  margin: 3rem 0rem;
+  height: 1.5px;
+  width: 1500px;
+  box-shadow: 0px 0 10px var(--secondary-color);
+}
+header{
+  background: linear-gradient(#272727, #750913);
+  text-align: center;
+  padding: 4rem 1rem;
+}
+header h1{
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+header img{
+  width: 300px;
+  margin: -4rem auto;
+}
+.container{
+  background: #262626;
+  margin: 2rem 1rem;
+  padding: 2rem 0;
+  box-shadow: 0px 5px 20px black;
+}
+.container h3{
+  text-align: center;
+  color: white;
+  padding: 0.4rem;
+} 
+.warning{
+  text-align: center;
+  color: #ff000c;
+  margin: 0rem 1rem;
+}
+footer{
+  padding: 2rem 1rem;
+  background: black;
+}
+footer h4, h5{
+  text-align: center;
+  color: white;
+}
+.button{
+  color: white;
+  background: red;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  margin: 1rem 5rem;
+  padding: 0.4rem 0rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 0px 10px black;
+}
+.button:hover{
+  color: red;
+  background: white;
+}
